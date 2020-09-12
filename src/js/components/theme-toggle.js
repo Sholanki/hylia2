@@ -1,6 +1,7 @@
 // For syntax highlighting only
 const html = String.raw;
 
+
 class ThemeToggle extends HTMLElement {
   constructor() {
     super();
@@ -66,9 +67,9 @@ class ThemeToggle extends HTMLElement {
 
   render() {
     this.innerHTML = html`
-      <div class="[ theme-toggle ] [ md:ta-right gap-top-500 ]">
+      <div class="[ theme-toggle ] [ md:ta-right gap-top-500 ]" style="padding-left: 20px; padding-bottom:10px;">
         <div role="status" class="[ visually-hidden ][ js-mode-status ]"></div>
-        <button class="[ button ] [ font-base text-base weight-bold ] [ js-mode-toggle ]">
+        <button class="[ button ] [ font-base text-base weight-bold ] [ js-mode-toggle ] " style="padding-top:10px; position: relative; bottom:10px;">
           Dark theme
         </button>
       </div>
