@@ -12,7 +12,8 @@
         <theme-toggle></theme-toggle>
       </div>
     </div>
-	<div style="display: table-cell;">
+	<div style="display: grid; grid-template-rows: repeat(1,minmax(0,1fr)); grid-template-columns: repeat(3,minmax(0,1fr)); grid-gap: .25rem;
+    gap: .25rem;">
 	<form
   action="https://buttondown.email/api/emails/embed-subscribe/reddy2go"
   method="post"
@@ -20,7 +21,7 @@
   onsubmit="window.open('https://buttondown.email/reddy2go', 'popupwindow')"
   class="embeddable-buttondown-form"
 >
-  <label for="bd-email" style="text-align: right; max-width: 20rem; align-self: flex-end;">Enter your email</label>
+  <label for="bd-email" style="text-align: left; max-width: 20rem; align-self: flex-end;">Enter your email</label>
   <input type="email" name="email" id="bd-email" style="border-width: 1px; --border-opacity: 1; border-color: rgba(0,0,0,var(--border-opacity));"></input>
   <input type="hidden" value="1" name="embed"></input>
   <input type="submit" style="border-radius: .125rem; --text-opacity: 1; color: rgba(0,0,0,var(--text-opacity)); --bg-opacity: 1; background-color: rgba(226,232,240,var(--bg-opacity)); font-size: medium;" value="Subscribe"></input>
