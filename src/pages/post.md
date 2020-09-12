@@ -1,6 +1,6 @@
 ---
 title: 'Post'
-permalink: '/index.html'
+permalink: '/post/index.html'
 layout: 'layouts/post_2.njk'
 ---
 
