@@ -14,6 +14,11 @@
       "text": "Example Contact Page",
       "url": "/contact",
       "external": false
+    },
+	{
+      "text": "Posts",
+      "url": "/post",
+      "external": false
     }
   ]
 }
