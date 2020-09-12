@@ -15,12 +15,13 @@
   }
   
   .intro2 {
-  background:#FF7F50;
+  background-color: #FF7F50;
+  font-family:  -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  color: #4B0082;
 
   &__summary {
     --flow-space: #{get-size(500)};
     font-size: get-size(500);
-	font-family: Helvetica;
 
     a {
       color: currentColor;
