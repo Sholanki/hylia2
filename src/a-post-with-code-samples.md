@@ -68,3 +68,9 @@ Hopefully this short and sweet trick will help you out on your projects. If it d
 ## Comments
 
 <button class="buttoncmd" href="https://trusting-curran-0186ea.netlify.app/posts/a-post-with-code-samples/" on-click="tweet" id="addComment">Add a comment</button>
+
+<iframe
+scrolling="no"
+style="width:100%!important;height:220px;border:1px #ccc solid !important"
+src="https://buttondown.email/reddy2go?as_embed=true"
+></iframe><br /><br/>
