@@ -1,0 +1,26 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{# Post list content #}
+{% set postListHeading = postsHeading %}
+{% set postListItems = collections.postFeed %}
+
+{# Archive link #}
+{% if postListItems.length < collections.posts.length %} 
+  {% set paginationNextText = archiveButtonText %}
+  {% set paginationNextUrl = '/archive' %}
+{% endif %}
+<body>
+<script src="/js/components/tweet.js" ></script>
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/pagination.njk" %}
+  </main>
+{% endblock %}
+</body>
+
+{{ content | safe }}
