@@ -59,7 +59,7 @@
 
 .max-w-xs{max-width:20rem;}
 .self-end{align-self:flex-end;}
-.text-right{text-align:right;}
+.text-right{text-align:left;}
 .grid{display:grid;}
 .grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr));}
 .grid-rows-1{grid-template-rows:repeat(1,minmax(0,1fr));}
