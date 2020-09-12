@@ -62,3 +62,7 @@ Finally, we use CSS transforms to `translateX(-50%)`. Because the transform work
 ## Wrapping up
 
 Hopefully this short and sweet trick will help you out on your projects. If it does, [drop me a tweet](https://twitter.com/andybelldesign), because I’d love to see it!
+
+## Comments
+
+<button class="buttoncmd" href="https://trusting-curran-0186ea.netlify.app/posts/a-post-with-code-samples/" on-click="tweet" id="addComment">Add a comment</button>
