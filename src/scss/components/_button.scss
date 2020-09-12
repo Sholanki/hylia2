@@ -72,12 +72,12 @@
 .bg-gray-300{--bg-opacity:1;background-color:#e2e8f0;background-color:rgba(226,232,240,var(--bg-opacity));}
 .font-medium{font-weight:500;}
 .row{
-	 display: table;
-	 width: 100%;
-	 padding: 16px;
+	
+	 display: flex;
+	flex-wrap: wrap;
 }
 .column {
-  
+  float: left;
+  width: 25%;
   padding: 10px; 
-  display: table-cell;
 }
