@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/post3.njk
 title: A post with code samples
 date: '2019-06-18'
 tags:
