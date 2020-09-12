@@ -71,3 +71,13 @@
 .text-black{--text-opacity:1;color:#000;color:rgba(0,0,0,var(--text-opacity));}
 .bg-gray-300{--bg-opacity:1;background-color:#e2e8f0;background-color:rgba(226,232,240,var(--bg-opacity));}
 .font-medium{font-weight:500;}
+.row{
+	 display: table;
+	 width: 100%;
+	 padding: 16px;
+}
+.column {
+  
+  padding: 10px; 
+  display: table-cell;
+}
