@@ -13,6 +13,23 @@
       }
     }
   }
+  
+  .intro2 {
+  background:#FF7F50;
+
+  &__summary {
+    --flow-space: #{get-size(500)};
+    font-size: get-size(500);
+	font-family: Helvetica;
+
+    a {
+      color: currentColor;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 
   &__heading {
     max-width: 40ex;
