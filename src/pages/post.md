@@ -1,6 +1,7 @@
 ---
 title: 'Post'
-permalink: '/post/index.html'
+permalink: '/index.html'
+permalinkBypassOutputDir: true
 layout: 'layouts/post_2.njk'
 ---
 
